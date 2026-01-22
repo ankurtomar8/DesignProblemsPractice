@@ -1,6 +1,6 @@
-package com.example.javaprogramrunner.SOLID.BirdV4;
+package com.example.javaprogramrunner.SOLID.BirdV5;
 
-public class Vulture extends Bird implements Flyable{
+public class Vulture extends Bird implements Flyable {
     @Override
     public void fly() {
         System.out.println(" Vulture Flying High");

@@ -1,4 +1,4 @@
-package com.example.javaprogramrunner.SOLID.BirdV4;
+package com.example.javaprogramrunner.SOLID.BirdV5;
 
 public abstract class Bird {
     private String name;

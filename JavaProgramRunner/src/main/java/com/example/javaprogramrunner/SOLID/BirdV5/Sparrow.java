@@ -1,4 +1,4 @@
-package com.example.javaprogramrunner.SOLID.BirdV4;
+package com.example.javaprogramrunner.SOLID.BirdV5;
 
 public class Sparrow extends Bird implements Flyable {
     LowFlying lowFlying;
