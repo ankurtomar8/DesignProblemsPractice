@@ -16,5 +16,11 @@ public class Client {
         Flyable f = new Pegion();
 
         System.out.println("Hello World");
+
+        Sparrow sp = new Sparrow();
+        sp.fly();
+        sp.setFlyingBehaviour(new HighFlying());
+        sp.fly();
+
     }
 }

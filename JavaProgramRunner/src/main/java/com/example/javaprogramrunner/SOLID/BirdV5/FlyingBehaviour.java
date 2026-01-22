@@ -1,0 +1,5 @@
+package com.example.javaprogramrunner.SOLID.BirdV5;
+
+public interface FlyingBehaviour {
+    void doFlying();
+}
