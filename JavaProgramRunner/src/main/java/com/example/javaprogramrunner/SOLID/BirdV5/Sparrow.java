@@ -4,7 +4,10 @@ public class Sparrow extends Bird implements Flyable {
   //  LowFlying lowFlying;
     FlyingBehaviour flyingBehaviour;
     Sparrow(){
+        // Old way
         flyingBehaviour = new LowFlying();
+        // Dependency Injection
+      //  this.flyingBehaviour = flyingBehaviour;
     }
 
     @Override
