@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "ProgramRunner"
 include(":app")
 include(":JavaProgramRunner")
+include(":app:lib")
