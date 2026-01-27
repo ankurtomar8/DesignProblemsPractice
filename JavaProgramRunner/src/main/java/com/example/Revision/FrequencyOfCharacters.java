@@ -19,6 +19,7 @@ public class FrequencyOfCharacters {
             }
         }
         System.out.println(frequencyMap);
+        // {a=4, b=4, c=5, d=3, e=3}
 
     }
 }
