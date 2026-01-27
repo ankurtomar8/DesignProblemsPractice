@@ -17,5 +17,6 @@ public class RemoveDuplicates {
             }
         }
         System.out.println(duplicateSet);
+        //[a, b, c, d, e]
     }
 }
