@@ -16,6 +16,13 @@ public class Q6_Convert_All_String_Letters_toUpperCase {
         System.out.println(upperCaseList);
         // [SOFTWARE, ENGINEERING, DEVELOPMENT, HARDWARE)
 
+        List<String> lowerCaseList = Arrays.stream(str.split(" "))
+                .map(String::toLowerCase)
+                .collect(Collectors.toList());
+
+        System.out.println(lowerCaseList);
+        // [software, engineering, development, hardware]
+
 
 
 
