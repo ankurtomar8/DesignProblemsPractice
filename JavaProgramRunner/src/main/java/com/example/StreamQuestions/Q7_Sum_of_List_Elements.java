@@ -14,7 +14,5 @@ public class Q7_Sum_of_List_Elements {
 
         System.out.println("Sum of List Elements is : "+sum);
         // Sum of List Elements is : 55
-
-
     }
 }
