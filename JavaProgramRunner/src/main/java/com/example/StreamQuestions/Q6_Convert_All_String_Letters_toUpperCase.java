@@ -9,6 +9,11 @@ public class Q6_Convert_All_String_Letters_toUpperCase {
 
         String str  = "Software Engineering Development Hardware";
 
+        List<String> strSplit = Arrays.asList(str.split(" "));
+        System.out.println(strSplit);
+        // [Software, Engineering, Development, Hardware]
+
+
         List<String> upperCaseList = Arrays.stream(str.split(" "))
                 .map(String::toUpperCase)
                 .collect(Collectors.toList());
