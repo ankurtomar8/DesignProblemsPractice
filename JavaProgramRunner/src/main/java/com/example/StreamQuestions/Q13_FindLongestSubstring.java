@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-public class FindLongestSubstring {
+public class Q13_FindLongestSubstring {
     public static void main(String[] args) {
            List<String> words = Arrays.asList("Java", "collection best in world don't know why",
                    "Very PowerFul Language");
