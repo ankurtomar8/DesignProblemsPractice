@@ -20,5 +20,18 @@ public class Client {
         SoldItem soldItem = new SoldItem();
         System.out.println(soldItem);
 */
+
+        SoldItem soldItem = SoldItem.getBuilder()
+                .setId(1)
+                .setName("Apple")
+                .setQuantity(10)
+                .setPrice(100)
+                .setPrime(true)
+                .setDiscount(10)
+                .setPaymentMethod("UPI UPI UPI")
+                .build();
+
+        System.out.println(soldItem);
+
     }
 }
