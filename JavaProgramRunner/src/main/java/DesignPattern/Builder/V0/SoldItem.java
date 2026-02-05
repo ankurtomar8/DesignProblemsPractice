@@ -1,5 +1,6 @@
 package DesignPattern.Builder.V0;
 
+
 public class SoldItem {
     private int id;
     private String name;
@@ -9,6 +10,18 @@ public class SoldItem {
     private double discount;
     private String paymentMethod;
 
+    public SoldItem(SoldItemBuilder soldItemBuilder) {
+        // Validation can be done here also
+
+        this.id = soldItemBuilder.getId();
+        this.name = soldItemBuilder.getName();
+        this.price = soldItemBuilder.getPrice();
+        this.quantity = soldItemBuilder.getQuantity();
+        this.isPrime = soldItemBuilder.isPrime();
+        this.discount = soldItemBuilder.getDiscount();
+        this.paymentMethod = soldItemBuilder.getPaymentMethod();
+
+    }
 
     public int getId() {
         return id;

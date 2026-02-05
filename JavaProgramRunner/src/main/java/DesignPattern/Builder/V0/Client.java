@@ -18,7 +18,7 @@ public class Client {
         soldItemBuilder.setDiscount(10);
         soldItemBuilder.setPaymentMethod("UPI UPI UPI");
 
-        SoldItem soldItem = new SoldItem();
+        SoldItem soldItem = new SoldItem(soldItemBuilder);
         System.out.println(soldItem);
 
     }
