@@ -1,4 +1,4 @@
-package DesignPattern.Builder.V0;
+package DesignPattern.Builder.V1;
 
 public class Client {
     public static void main(String[] args) {
@@ -8,8 +8,7 @@ public class Client {
         // Way 3: Using HashMap
         // Way 4: Using Builder Pattern
 
-
-        SoldItemBuilder soldItemBuilder = new SoldItemBuilder();
+  /*      SoldItemBuilder soldItemBuilder = new SoldItemBuilder();
         soldItemBuilder.setId(1);
         soldItemBuilder.setName("Apple");
         soldItemBuilder.setQuantity(10);
@@ -20,6 +19,6 @@ public class Client {
 
         SoldItem soldItem = new SoldItem();
         System.out.println(soldItem);
-
+*/
     }
 }
