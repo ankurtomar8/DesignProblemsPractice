@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Q_9_Find_if_any_String_Matches_in_list {
+public class Q9_Find_if_any_String_Matches_in_list {
     public static void main(String[] args) {
 
         List<String> listStr = Arrays.asList
