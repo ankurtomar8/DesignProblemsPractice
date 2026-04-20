@@ -2,7 +2,7 @@ package com.example.Revision;
 
 public class ReverseLettersInString {
     public static void main(String[] args) {
-        String str = "NITIN";
+        String str = "Ankur Bhai Bhai";
 
         String strRev = "";
 
