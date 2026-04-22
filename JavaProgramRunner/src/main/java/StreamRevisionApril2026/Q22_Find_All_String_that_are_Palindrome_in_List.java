@@ -14,8 +14,8 @@ public class Q22_Find_All_String_that_are_Palindrome_in_List {
         System.out.println("Original List "+listStr);
 
         List<String> palindromeList = listStr.stream()
-                .filter(word->word.equals
-                        (new StringBuilder(word).reverse().toString()))
+                .filter(word->word.contentEquals
+                        (new StringBuilder(word).reverse()))
                 .collect(Collectors.toList());
         System.out.println("Palindrome List "+palindromeList);
         // Output
