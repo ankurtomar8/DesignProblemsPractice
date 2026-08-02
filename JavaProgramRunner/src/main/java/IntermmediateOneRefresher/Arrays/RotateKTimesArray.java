@@ -6,9 +6,9 @@ public class RotateKTimesArray {
         k = k % n;
         if (k == 0) return;
 
-        reverse(nums, 0, n - 1);
-        reverse(nums, 0, k - 1);
-        reverse(nums, k, n - 1);
+        reverse(nums, 0, n - 1);  // 7 6 5 4 3 2 1
+        reverse(nums, 0, k - 1);  // 5 6 7 4 3 2 1
+        reverse(nums, k, n - 1);  // 5 6 7 1 2 3 4
     }
 
     private void reverse(int[] nums, int start, int end) {
