@@ -12,4 +12,7 @@ public class Print2DMatrices {
             System.out.println();
         }
     }
+    // Output
+    // 2 3
+    // 4 4
 }
